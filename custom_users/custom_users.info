@@ -1,0 +1,11 @@
+;$Id$
+
+name = Custom Users
+description = Modulo para exibir dados do usuario de maneira customizada
+package = Drupal 7 Development
+core = 7.x
+files[] = custom_users.module
+files[] = custom_users.test
+
+;dependencies[] = autoload
+;php = 5.2

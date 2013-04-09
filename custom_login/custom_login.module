@@ -1,0 +1,26 @@
+<?php
+
+//;Id;
+
+/**
+*
+* @file
+* Modulo para autenticar usuarios atraves
+* de um web service rest
+*
+**/
+
+function custom_login_wsif_info() {
+  return array(
+    'custom_login' => array(
+      'name' => t('Servico para Autenticar via REST'),
+      'description' => t('Meu Servico de Integracao'),
+      'machine_name' => 'custom_login',
+      'extra' => '',
+    ),
+  );
+}
+
+function custom_login_wsif(){
+  return new CustomLoginWrapper();
+}

@@ -1,0 +1,11 @@
+;$Id$
+
+name = Custom Login
+description = Modulo para Autenticar Usuario atraves de um web service rest
+package = Drupal 7 Development
+core = 7.x
+files[] = custom_login.module
+files[] = custom_login.test
+
+dependencies[] = wsif
+;php = 5.2

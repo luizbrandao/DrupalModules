@@ -1,0 +1,28 @@
+<?php
+
+/**
+* @file
+* Teste para Custom Users
+**/
+
+class CustomUsersTestCase extends DrupalWebTestCase{
+  public function setUp(){
+    parent::setUp();
+  }
+  
+  public function getInfo(){
+    return array(
+      'name'=>'Custom Users Functionality.',
+      'description'=>'Modulo para exibir dados do usuario de maneira customizada',
+      'group'=>'First',
+    );
+  }
+
+  public function testBlockInfo() {
+	
+  }
+
+  public function testBlockView() {
+    
+  }
+}
